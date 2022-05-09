@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Perbandingan</title>
+</head>
+<body>
+    <!-- Operator Perbandingan yang diisi secara langsung untuk menampilkan output secara langsung -->
+    <script>
+        document.writeln("Operator Perbandingan yang diisi secara langsung untuk menampilkan output secara langsung");
+
+        let hasil = 100 > 1000; // false
+        document.writeln("<li> apakah benar atau salah nilai 100 lebih besar dari 10? Hasilnya yaitu : "+ hasil +"</li>");
+
+        hasil = 1239.23 < 15986; //true
+        document.writeln("<li> apakah benar atau salah nilai 1239.23 kecil dari 15986? Hasilnya yaitu : "+ hasil +"</li>");
+        
+        hasil = 9015890.92 >= 9015890.9; //true
+        document.writeln("<li> apakah benar atau salah nilai 9015890.92 lebih dari sama dengan 9015890.9? Hasilnya yaitu : "+ hasil + "</li>");
+
+        hasil = 89374 <= 89373.99; //false
+        document.writeln("<li> apakah benar atau salah nilai 89374 kurang dari sama dengan 89373.99? Hasilnya yaitu : " + hasil + "</li>");
+
+        hasil = 90 == '90'; //true karena walaupun tipe datanya beda tetapi dianggap datanya sama
+        document.writeln("<li> apakah benar atau salah nilai 90 sama dengan string 90? Hasilnya yaitu : " + hasil + "</li>");
+
+        hasil = 100 === '100'; //false karena walaupun tipe datanya beda dianggap datanya tidak sama
+        document.writeln("<li> apakah benar atau salah nilai 100 sama dengan dan sama tipe string 100? Hasilnya yaitu : " + hasil + "</li>");
+
+        hasil = 200 != '200'; //false karena nilai 200 berbeda dengan string 200
+        document.writeln("<li> apakah benar atau salah nilai 200 tidak sama dengan string 200? Hasilnya yaitu : "+ hasil + "</li>");
+
+        hasil = 300 != '200'; //true karena nilai 300 berbeda dengan string 200
+        document.writeln("<li> apakah benar atau salah nilai 300 tidak sama dengan string 200? Hasilnya yaitu : "+ hasil + "</li>");
+
+        hasil = 87.9 !== 'kamu'; //true karena tipe data angka dan string berbeda
+        document.writeln("<li> apakah benar atau salah nilai kamu sama dengan dan sama tipe string kamu? Hasilnya yaitu :" + hasil + "</li>");
+
+        document.writeln("<br>");
+    </script>
+    <!-- Operator Perbandingan yang diisi secara langsung untuk menampilkan output secara langsung -->
+
+    <!-- Operator Perbandingan yang diisi secara langsung untuk menampilkan output file secara terpisah -->
+    <script src="perbandingan.js"></script>
+    <!-- Operator Perbandingan yang diisi secara langsung untuk menampilkan output file secara terpisah -->
+    
+</body>
+</html>
