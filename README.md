@@ -1,2 +1,2 @@
-# Perbandingan
+# 7_Perbandingan
 Menampilkan Operator Perbandingan
